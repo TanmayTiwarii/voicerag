@@ -1,0 +1,11 @@
+[00:00:00] Agent (Mike): Welcome to CloudCompute Billing Support. This is Mike speaking. Can I have your account number?
+[00:00:06] Customer (Alice): Hi Mike, my account number is 884-291-330.
+[00:00:10] Agent (Mike): Thank you, Alice. I have your account pulled up. How can I help you?
+[00:00:15] Customer (Alice): I'm looking at my invoice for last month, and I noticed a charge of $45.50 for 'Premium Data Storage'. I thought I was on the standard tier, which is free up to 50GB.
+[00:00:30] Agent (Mike): Let me check that for you. Ah, I see what happened. On the 15th of last month, you exceeded the 50GB limit. You used a total of 85GB. When the limit is exceeded, the system automatically provisions Premium Data Storage to ensure your data isn't lost, which is billed at $1.30 per GB over the limit. 35GB extra comes out to $45.50.
+[00:00:55] Customer (Alice): Oh, I see. I didn't realize I had uploaded that much data. Is there a way to cap it so I don't get automatically upgraded?
+[00:01:05] Agent (Mike): Yes, absolutely. I can enable a 'Hard Cap' on your account so you cannot exceed 50GB. However, any uploads past that limit will fail. Would you like me to enable that?
+[00:01:18] Customer (Alice): Yes, please enable the hard cap. I will clean up some old files to stay under the limit.
+[00:01:25] Agent (Mike): Done. The hard cap is now active. I will also waive the $45.50 fee for this month as a one-time courtesy since this was your first time exceeding the limit.
+[00:01:38] Customer (Alice): Wow, thank you so much, Mike! That's very helpful.
+[00:01:42] Agent (Mike): You're welcome, Alice. Have a wonderful day!

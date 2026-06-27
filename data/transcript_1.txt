@@ -1,0 +1,11 @@
+[00:00:01] Agent (Sarah): Thank you for calling TechGadget Support. My name is Sarah. How can I assist you today?
+[00:00:05] Customer (John): Hi Sarah. I recently bought the new ProVision X1 router from your store, but I can't seem to get it to connect to the internet. The light just keeps blinking orange.
+[00:00:15] Agent (Sarah): I'm sorry to hear you're having trouble with your ProVision X1, John. A blinking orange light usually indicates that the router is not receiving a signal from the modem. Have you tried restarting both your modem and the router?
+[00:00:30] Customer (John): Yes, I unplugged both of them for about a minute and plugged them back in, but it didn't change anything.
+[00:00:38] Agent (Sarah): Okay. Let's try checking the cable connections. Ensure the ethernet cable is securely plugged into the yellow 'WAN' port on the router and the 'LAN' port on your modem. 
+[00:00:50] Customer (John): Oh, wait. I plugged it into one of the blue ports labeled 'LAN 1'. Let me switch it to the yellow one. ... Okay, I've switched it. 
+[00:01:05] Agent (Sarah): Great. Give it a moment to boot up. The light should turn solid white once it's connected.
+[00:01:12] Customer (John): It's blinking white now... and yes, it's solid white! I have internet on my phone now. Thank you!
+[00:01:20] Agent (Sarah): You're very welcome, John. Is there anything else I can help you with today?
+[00:01:23] Customer (John): No, that's it. Have a great day!
+[00:01:25] Agent (Sarah): You too! Goodbye.
