@@ -9,14 +9,15 @@ logger = logging.getLogger(__name__)
 
 def get_rag_agent():
     """Initializes and returns the LangChain ReAct agent."""
-    if not settings.OPENAI_API_KEY:
-        logger.warning("OPENAI_API_KEY is not set. The agent will fail if called.")
+    if not settings.XAI_API_KEY:
+        logger.warning("XAI_API_KEY is not set. The agent will fail if called.")
         
-    # Initialize the LLM for reasoning
+    # Initialize the LLM for reasoning (using Grok via OpenAI compatible endpoint)
     llm = ChatOpenAI(
-        model="gpt-3.5-turbo", # Can be changed to gpt-4 or others
+        model="grok-2-latest", 
         temperature=0,
-        openai_api_key=settings.OPENAI_API_KEY
+        api_key=settings.XAI_API_KEY,
+        base_url="https://api.x.ai/v1"
     )
     
     # Initialize retriever
